@@ -1,0 +1,16 @@
+body {
+  background-color: #313131;
+  color: #eeeeee;
+  font-family: 'Malgun Gothic', '굴림', 'Gulim', 'Arial';
+  height: 100vh;
+}
+
+#box {
+  width: 100%;
+  height: 67vh;
+}
+
+#anime_waifu_img {
+  max-height: 100%;
+  width: auto;
+}
