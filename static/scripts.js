@@ -15,6 +15,9 @@ const asyncTest = async () => {
 };
 
 testImgUrl();
-box.addEventListener('click', () => {
+box.addEventListener('click', (event) => {
+  if (event.target.id !== 'anime_waifu_img') {
+    return;
+  }
   testImgUrl();
 });
