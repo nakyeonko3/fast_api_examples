@@ -21,3 +21,7 @@ box.addEventListener('click', (event) => {
   }
   testImgUrl();
 });
+
+
+// 이미지 로딩 시간이 너무 길다
+// 원본 보기 기능이 있으면 좋겠다.
